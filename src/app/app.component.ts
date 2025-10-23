@@ -36,6 +36,9 @@ import { RouterModule } from '@angular/router';
         <ul>
           <li><a routerLink="" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Startsida</a></li>
           <li><a routerLink="/home" routerLinkActive="active">Home (lista)</a></li>
+
+          <li><a routerLink="/blazor/todo" routerLinkActive="active">Todos (Blazor)</a></li>
+          <li><a routerLink="/blazor/weather" routerLinkActive="active">Weather (Blazor)</a></li>
         </ul>
       </nav>
       <main class="content">
