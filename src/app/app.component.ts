@@ -39,6 +39,7 @@ import { RouterModule } from '@angular/router';
 
           <li><a routerLink="/blazor/todo" routerLinkActive="active">Todos (Blazor)</a></li>
           <li><a routerLink="/blazor/weather" routerLinkActive="active">Weather (Blazor)</a></li>
+          <li><a routerLink="/blazor/app" routerLinkActive="active">App (Razor)</a></li>
         </ul>
       </nav>
       <main class="content">
